@@ -1,10 +1,9 @@
-import java.security.Key;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class rev {
 
-    public static HashMap<String,Integer> returnador ( Automovel[] lista1){
+    public static void returnador (Automovel[] lista1){
 
     }
     public static void main(String[] args) {
@@ -53,6 +52,8 @@ public class rev {
         for ( String key : contador.keySet() ) {
             System.out.println( "Marca: " + key + "/ Contador: " + contador.get(key));
         }
+
+        // ola
 
     }
 }
